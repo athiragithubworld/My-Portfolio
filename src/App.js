@@ -6,8 +6,8 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Nav from "./Components/Nav/Nav";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Services from "./Components/Services/Services";
-import Testimonials from "./Components/Testimonials/Testimonials";
+// import Services from "./Components/Services/Services";
+// import Testimonials from "./Components/Testimonials/Testimonials";
 import About from "./Components/about/About";
 function App() {
   return (

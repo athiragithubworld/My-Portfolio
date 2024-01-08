@@ -5,15 +5,16 @@ import IMG2 from "../../assets/Expense.jpg";
 import IMG3 from "../../assets/Mailbox2.jpg";
 import IMG4 from "../../assets/Meetup4.jpg";
 import IMG5 from "../../assets/TodoList.jpg";
+import IMG6 from "../../assets/Bookstore1.jpg";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
-      image: IMG1,
-      title: "Ecommerce Project",
-      github: "https://github.com/athiragithubworld/EcommerceProject",
-      demo: "https://ecommerce-contactus.web.app/",
+      image: IMG6,
+      title: "Bookstore Project",
+      github: "https://github.com/athiragithubworld/Books_EcommerceProject",
+      demo: "https://books-store-project-ten.vercel.app/",
     },
     {
       id: 2,
@@ -31,13 +32,20 @@ const Portfolio = () => {
     },
     {
       id: 4,
+      image: IMG1,
+      title: "Ecommerce Project",
+      github: "https://github.com/athiragithubworld/EcommerceProject",
+      demo: "https://ecommerce-contactus.web.app/",
+    },
+    {
+      id: 5,
       image: IMG4,
       title: "MeetUps Project",
       github: "https://github.com/athiragithubworld/Meetup_NextjsP2Deploy",
       demo: "https://meetup-nextjs-p2-deploy.vercel.app/",
     },
     {
-      id: 5,
+      id: 6,
       image: IMG5,
       title: "ToDo List Project",
       github: "https://github.com/athiragithubworld/ToDoList_NextJsP4",

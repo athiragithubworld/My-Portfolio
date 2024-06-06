@@ -1,42 +1,49 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/Ecommerce1.jpg";
-import IMG2 from "../../assets/Expense.jpg";
-import IMG3 from "../../assets/Mailbox2.jpg";
-import IMG4 from "../../assets/Meetup4.jpg";
-import IMG5 from "../../assets/TodoList.jpg";
-import IMG6 from "../../assets/Bookstore1.jpg";
+import IMG1 from "../../assets/geminiclone.png";
+import IMG2 from "../../assets/myExpense.png";
+import IMG3 from "../../assets/mymailbox_compose.png";
+import IMG4 from "../../assets/mymeetups.png";
+import IMG5 from "../../assets/myTodoList.png";
+import IMG6 from "../../assets/bookstore_books.png";
 
 const Portfolio = () => {
   const data = [
     {
       id: 1,
+      image: IMG1,
+      title: "Gemini Clone Project",
+      github: "https://github.com/athiragithubworld/GeminiClone_Chat",
+      demo: "https://gemini-clone-chat.vercel.app/",
+    },
+    {
+      id: 2,
       image: IMG6,
       title: "Bookstore Project",
       github: "https://github.com/athiragithubworld/Books_EcommerceProject",
       demo: "https://books-store-project-ten.vercel.app/",
     },
     {
-      id: 2,
+      id: 3,
       image: IMG2,
       title: "Expense Tracker Project",
       github: "https://github.com/athiragithubworld/ExpenseTrackerProject",
       demo: "https://expense-tracker-project-green.vercel.app/",
     },
     {
-      id: 3,
+      id: 4,
       image: IMG3,
       title: "Mailbox Project",
       github: "https://github.com/athiragithubworld/MailBoxProject",
       demo: "https://mail-box-project.vercel.app/",
     },
-    {
-      id: 4,
-      image: IMG1,
-      title: "Ecommerce Project",
-      github: "https://github.com/athiragithubworld/EcommerceProject",
-      demo: "https://ecommerce-contactus.web.app/",
-    },
+    // {
+    //   id: 4,
+    //   image: IMG1,
+    //   title: "Ecommerce Project",
+    //   github: "https://github.com/athiragithubworld/EcommerceProject",
+    //   demo: "https://ecommerce-contactus.web.app/",
+    // },
     {
       id: 5,
       image: IMG4,
